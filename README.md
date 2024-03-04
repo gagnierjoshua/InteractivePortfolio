@@ -20,3 +20,15 @@ Datascience / ML
 Typescript 
 Webassembly  
 (currently)
+
+
+Step 1:
+https://tailwindcss.com/docs/guides/nextjs
+npx create-next-app@latest my-project --typescript --eslint
+cd my-project
+
+In terminal:
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
