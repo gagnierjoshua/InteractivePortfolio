@@ -24,7 +24,7 @@ const MobileNav = ({nav,closeNav}:Props) => {
         </div>
         <div 
         onClick={closeNav} 
-        className="absolute cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-green-400">
+        className="absolute cursor-pointer top-[10rem] right-[2rem] w-[3rem] h-[3rem] text-green-400">
             <XMarkIcon/>
         </div>
     </div>

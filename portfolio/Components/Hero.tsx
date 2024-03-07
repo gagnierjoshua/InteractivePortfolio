@@ -1,15 +1,55 @@
 import React from "react";
-
+import TextEffect from "./TextEffects";
+import Image from "next/image";
+import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 
 const Hero = () => {
   return (
-  <div>       
-    <video src={require("../public/videos/test.mp4")} 
-    autoPlay muted loop  />
-  </div>
+    <div className="h-[88vh] bg-[url('/images/banner.png')] bg-cover bg-center">
+      <video 
+        className="absolute z-10 w-full object-cover top-300 left-0 max-h-[400px]"
+        src={require("../public/videos/test.mp4")} 
+        autoPlay 
+        muted 
+        loop  
+       />
+      <div className="relative w-[80%] z-20 grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[30%] items-center">
+          <div>
+              <h1 className="text-[35px] md:text-[50px] text-white font-bold">
+                'Hello, I'm{' '}
+                  <span className="text-green-400">
+                  Josh Gagnier 
+                  </span>
+              </h1>      
+              <TextEffect /> 
+              <p className="mt-[1.75rem] text-[20px] text-white">
+              Veteran STEM education leader with a passion for software architecture, web, embedded, and game development.    
+              </p>  
+              <div className="mt-[1rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
+              <button className="px-[2rem] hover:bg-green-700 transition-all duration-200 py-[1rem] 
+              text-[16px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+                <p>
+                  Resume
+                </p>
+                <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
+              </button>
+        </div>
+      </div>
+    <div className="w-[350px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[350px]">
+      <Image
+        src="/images/self.png"
+        alt="Joshua Gagnier"
+        layout="fill"
+        objectFit="cover"
+        className="rounded-full"
+      />
+      
+    </div>
+    </div>
+    </div>
   );
 };
 
 export default Hero;
 
-{/*>className="h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center" */}
+
