@@ -1,7 +1,7 @@
 /*next type animation */
 /*https://www.npmjs.com/package/react-type-animation */
 
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 const TextEffect = () => {
   return (
@@ -19,6 +19,7 @@ const TextEffect = () => {
         'Embedded Engineer',
         1000,
         'Learner',
+        1000,
       ]}
       speed ={50}
       className="text-[2rem] md:text-[3-rem] text-green-400 font-bold uppercase"
