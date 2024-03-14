@@ -32,10 +32,12 @@ const Nav = ({openNav}:Props) => {
           {isDropdownVisible && (
             <div className="absolute left-0 mt-0 w-22 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
               <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                
                 <a href="#" className="block px-2 py-2 text-sm text-gray-700 hover:bg-green-100" role="menuitem">General</a>
                 <a href="#" className="block px-2 py-2 text-sm text-gray-700 hover:bg-green-100" role="menuitem">Web</a>
                 <a href="#" className="block px-2 py-2 text-sm text-gray-700 hover:bg-green-100" role="menuitem">Game</a>
                 <a href="#" className="block px-2 py-2 text-sm text-gray-700 hover:bg-green-100" role="menuitem">Embedded</a>
+                <a href="#" className="block px-2 py-2 text-sm text-gray-700 hover:bg-green-100" role="menuitem">AI & Data</a>
               </div>
             </div>
           )}

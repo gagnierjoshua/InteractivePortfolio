@@ -15,7 +15,7 @@ const About = () => {
                 <div className="mb-[3rem] flex items-center md:space-x-10">
                     <span className="w-[100px] hidden md:block h-[5px] bg-green-400 rounded-r-lg"></span>
                     <p className="text-20px text-white w-80%">
-                    I&apos;ve been passionately helping others find, seek, and chase their dreams for the last 10 years as a teacher, mentor, and community leader. I've lived to hype others and be their cheerleader preparing foundations, 
+                    I&apos;ve been passionately helping others find, seek, and chase their dreams for the last 10 years as a teacher, mentor, and community leader. I&apos;ve lived to hype others and be their cheerleader preparing foundations, 
                     connecting between networks, and celebrating their success. Now, I want to follow my own advice and pursue my own dreams solving problems with software.
                     </p>
                 </div>
