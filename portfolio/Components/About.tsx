@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className = "bg-[#121121] pb-[3rem] pt[4rem] md:pt-[8rem]">
+    <div id="AboutMe" className = "bg-[#121121] pb-[3rem] pt[4rem] md:pt-[8rem]">
         <div className="grid grid-cols-1 w-[80%] mx-auto gap-[3rem] md:grid-cols-2 items-center">
             <div>
                 <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">

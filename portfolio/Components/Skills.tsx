@@ -6,66 +6,77 @@ import { Button, Popover } from "flowbite-react";
 const Skills = () => {
   const collaboration = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And hervery engaging. Right?</p>
+        <p>Career built on collaborating with teachers accross my school district, University professors, and 
+          industry professionals to create engaging and effective STEM curriculum, programs, events, and support
+          for students and teachers.
+        </p>
       </div>
     </div>
   );
 
   const presentation = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+      
       <div className="px-3 py-2">
-        <p>And herery engaging. Right?</p>
+        <p>Hired as a workshop trainer, teaching every day, and being selected a multitude of times to present
+          at STEM industry conferences I have built a strong professional reputation for my ability to present
+        </p>
       </div>
     </div>
   );
 
   const creativity = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+  
       <div className="px-3 py-2">
-        <p>And heery engaging. Right?</p>
+        <p>
+        Software, people, and educational delivery I have approached creatively to solve problems 
+        and create engaging and effective solutions.
+        </p>
       </div>
     </div>
   );
 
   const adaptability = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And hery engaging. Right?</p>
+        <p>Software language, clients, organization, students, peers, leadership team, challenge, 
+          I am quickly able to learn, adapt, and excel
+          as demonstrated in my projects technically and partnerships professionally.
+        </p>
       </div>
     </div>
   );
 
   const mentorship = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And here&apos;s some amazing content. It&apos;s very engaging. Right?</p>
+        <p>
+          Master Teacher for nine UCI Physics student teachers over six years from the CalTeach and Masters in Teaching program at UCI.
+          In mentoring I have worked to turn aspiring teachers into leaders in the educational space, 
+          presenting at industry conferences collaboratively with them as peers. 
+
+          As a strong mentor, I also am very receptive to and always looking for mentorship.
+
+        </p>
       </div>
     </div>
   );
 
   const reductionism = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And here&apos;s some amazing content. It&apos;s very engaging. Right?</p>
+        <p>Taking the complex and making it simple and understanble has been the nature of my career.
+          College level Physics for Sophmores? It can be broken down.
+          Engineering projects for 5th gradres? It can be broken down.
+
+          Simplifying complex concepts and tasks into maneagable and understandable components is an expertise of mine.
+        </p>
       </div>
     </div>
   );
@@ -73,11 +84,14 @@ const Skills = () => {
 
   const agile = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+   
       <div className="px-3 py-2">
-        <p>And here&apos;s some amazing content. It&apos;s very engaging. Right?</p>
+        <p>
+        In my development tasks, engineering projects, and educational programs I have been able to implement agile methodologies.
+        
+        Soldifying and in preperation for a full tech career has culminated in my receiving of the PSM1 Scrum Master certification. 
+
+        </p>
       </div>
     </div>
   );
@@ -85,149 +99,165 @@ const Skills = () => {
 
   const learner = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And here&apos;s some amazing content. It&apos;s very engaging. Right?</p>
+        <p>
+          Whether it be a different subject to teach, technology to implement, or a new software language to learn you will find me 
+          professionally and personally experimenting, researching, and applying new knowledge. 
+
+
+
+        </p>
       </div>
     </div>
   );
 
   const typescript = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And here&apos;s some amazing content. It&apos;s very engaging. Right?</p>
+        <p>
+          This website was designed with Typescript!
+
+        </p>
       </div>
     </div>
   );
 
   const js = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And  engaging. Right?</p>
+        <p>
+        This website utilizes JavaScript for several of its features,
+         as well my Chrome Extensions were developed utilizing a JavaScript frontend. 
+          
+        </p>
       </div>
     </div>
   );
 
   const tailwind = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And h very engaging. Right?</p>
+        <p>
+          This website was designed with Tailwind CSS!
+
+        </p>
       </div>
     </div>
   );
 
   const css = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And very engaging. Right?</p>
+        <p>
+          This website utilizes CSS for several of its features, as well has been a tool I use to quickly spin up calculators for students for Physics problems for labs. 
+
+
+        </p>
       </div>
     </div>
   );
 
   const python = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+\
       <div className="px-3 py-2">
-        <p>And  very engaging. Right?</p>
+        <p>Scripts, Deep Learning, Data Analysis, Text Cleaning, and much more! Python is a go to development tool for myself!</p>
       </div>
     </div>
   );
 
   const go = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+\
       <div className="px-3 py-2">
-        <p>And heery engaging. Right?</p>
+        <p>For backend API development Go has become my languge of preference due to ease of use and strong integration with other languages! </p>
       </div>
     </div>
   );
 
   const react = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+\
       <div className="px-3 py-2">
-        <p>And hvery engaging. Right?</p>
+        <p>
+        This website was designed with React elements and libraries!
+
+        </p>
       </div>
     </div>
   );
 
   const next = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+\
       <div className="px-3 py-2">
-        <p>And hervery engaging. Right?</p>
+        <p>
+          This website utilized Next js for its static site generation supporting the React components!
+
+        </p>
       </div>
     </div>
   );
 
   const cpp = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And hey engaging. Right?</p>
+        <p>
+          Games! Embedded! Crud Applications! C++ is a language I have used for a variety of projects and applications and am always exploring.
+          My C++ knowledge and explorations has made me a better developer in all domains of software engineering. 
+
+
+        </p>
       </div>
     </div>
   );
 
   const arduino = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And hervery engaging. Right?</p>
+        <p>
+          Embedded systems, IoT, and robotics have been a passion of mine for years and Arduino has been a go to platform for me to build and teach with.
+          Truly my bread and butter, I can design and code most things from idea to physical protoype with Arduino.
+
+
+        </p>
       </div>
     </div>
   );
 
   const aws = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And hery engaging. Right?</p>
+        <p>
+          For project integration I have experience and usage with AWS EC2 servers! 
+
+
+        </p>
       </div>
     </div>
   );
 
   const jenkins = (
     <div className="w-64 text-sm text-gray-500 dark:text-gray-400">
-      <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-        <h3 className="font-semibold text-gray-900 dark:text-white">Popover title</h3>
-      </div>
+
       <div className="px-3 py-2">
-        <p>And herengaging. Right?</p>
+        <p>
+          For project integration I have experience and usage with Jenkins in conjuction with my AWS EC2 experience!
+        </p>
       </div>
     </div>
   );
 
   return (
-    <div className="pt-[5rem] pb-[3rem] bg-black">
+    <div id="Skills" className="pt-[5rem] pb-[3rem] bg-black">
       <div className="grid w-[80%] mx-auto grid-cols-1 lg:grid-cols-2 gap-[2rem]">
         <div>
           <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
@@ -634,8 +664,8 @@ const Skills = () => {
 
           <Popover content={aws} trigger="hover">
           <div
-            className="text-white font-semibold  gap-[2rem] border-double text-center border-2 border-green-400
-         border-t-green-500 bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
+            className="text-white font-semibold gap-[2rem] border-double text-center border-2 border-green-400
+            border-t-green-500 bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
           >
             AWS
             <div className="flex items-center align-middle justify-center">
@@ -648,8 +678,8 @@ const Skills = () => {
 
           <Popover content={jenkins} trigger="hover">
           <div
-            className="text-white font-semibold  gap-[2rem] border-double text-center border-2 border-green-400
-         border-t-green-500 bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
+            className="text-white font-semibold gap-[2rem] border-double text-center border-2 border-green-400
+            border-t-green-500 bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
           >
             Jenkins
             

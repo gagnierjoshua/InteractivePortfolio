@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
+    <div id="Projects" className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
         <div  className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem]  md:grid-cols-5 items-center  " >
 
     {/* Webdev Highlight */}    
