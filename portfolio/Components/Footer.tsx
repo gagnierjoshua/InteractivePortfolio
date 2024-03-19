@@ -55,7 +55,7 @@ const Footer = () => {
             </div>        
         {/* GitHub */}
         <div className="flex items-center space-x-6">
-                <div className="md:w-[6.5rem] md;h-[6.5rem] w-[5rem] flex items-center justify-center
+                <div className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] flex items-center justify-center
                     rounded-full bg-black">
                         {/* GH SVG */}      
                         <a

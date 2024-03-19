@@ -36,7 +36,7 @@ const Hero = () => {
                 <p>
                   Resume
                 </p>
-                <ArrowDownTrayIcon className="w-[1.5rem] h-[1.5srem] text-black"/>
+                <ArrowDownTrayIcon className="w-[1.5rem] h-[1.5rem] text-black"/>
               </button>
               </a>
         </div>
