@@ -75,3 +75,6 @@ learning & being mentored
 
 
 foooter changed <p to h2>
+
+timeline
+https://www.flowbite-react.com/docs/components/timeline
