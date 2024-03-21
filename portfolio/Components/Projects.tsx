@@ -8,7 +8,7 @@ const Projects = () => {
 
     {/* Webdev Highlight */}    
     
-            <div className="bg-gradient-to-b gap-y-4  from-slate-800 to-teal-700 rounded-lg flex flex-col justify-center items-center hover:opacity-90  min-h-[350px] "  title="Click here for more">
+            <div className=" bg-gradient-to-b gap-y-4  from-slate-800 to-teal-700 rounded-lg flex flex-col justify-center items-center hover:opacity-90  min-h-[350px] "  title="Click here for more">
                 
                 <h1 className="text-[20px]  font-bold uppercase text-green-400 md-[1rem]">
                     Web <span className="text-white">Dev </span>
