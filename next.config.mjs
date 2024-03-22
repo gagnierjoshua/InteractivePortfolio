@@ -3,6 +3,7 @@ import withVideos from "next-videos";
 
 const nextConfig = {
     /* config options here */
+    reactStrictMode: true,
 };
 
 export default {
