@@ -2,12 +2,13 @@
 import withVideos from "next-videos";
 
 const nextConfig = {
-  /* config options here */
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
+    /* config options here */
 };
 
-export default withVideos(nextConfig);
+export default {
+    ...nextConfig,
+    ...withVideos(),
+};
 
 
 
@@ -22,5 +23,3 @@ const nextConfig = {
 
 
 export default nextConfig; */
-
-
