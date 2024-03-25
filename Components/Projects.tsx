@@ -28,7 +28,7 @@ const Projects = () => {
                 </div>
 
                 <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-                    <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center">
+                <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
                     Web scraping google chrome extension that utilizes APIs to scrape data from websites and outputs csv files of text cleaned to the check-box specifications. 
                     </p>
                     </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                 />
                 </div>
                 <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-                    <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center">
+                <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
                     I have made guides and developed of hundreds of prototype devices utilizing a far range of embedded devices interfacing with ARM, ESP, Raspberry Pi, and Arduino microcontrollers.
 
                     </p>
@@ -88,7 +88,7 @@ const Projects = () => {
                 </div>
 
                 <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-                    <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center">
+                <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
                     In hobby and for educuation, I have developed several games in C++ utilizing low-level libraries and engines such as Raylib.
                     </p>
                     </div>
@@ -117,9 +117,9 @@ const Projects = () => {
                 />
                 </div>
                 <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-                    <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center">
-                    As employed as a mentor teacger for university research programs I have coached students in Astronomy and Physics data analysis. 
-                    </p>
+                <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+        As employed as a mentor teacher for university research programs I have coached students in Astronomy and Physics data analysis. 
+    </p>
                     </div>
 
                     
@@ -146,7 +146,7 @@ const Projects = () => {
                 />
                 </div>
                 <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-                    <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center">
+                <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
                     Progressively taken on increasing responsibility leadership roles as a master teacher, mentor teacher, state standards trainer, county curriculum specialist, and presenter over the last 10 years. 
                     </p>
                     </div>

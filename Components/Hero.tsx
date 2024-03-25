@@ -41,17 +41,18 @@ const Hero = () => {
               </a>
         </div>
       </div>
-    <div className="w-[350px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[350px]">
-      <Image
-        src="/images/self.png"
-        alt="Joshua Gagnier"
-        layout="fill"
-        objectFit="cover"
-        className="rounded-full"
-      />
-    </div>
-      </div>
-    
+      <div className="flex justify-center items-center">
+                <div className="w-[350px] hidden bg-[#55e6a5] relative lg:flex justify-center items-center rounded-full h-[350px]">
+                  <Image
+                    src="/images/self.png"
+                    alt="Joshua Gagnier"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-full"
+                  />
+                </div>
+                </div>
+                  </div>
     </div>
   );
 };
