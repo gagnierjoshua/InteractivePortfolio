@@ -28,7 +28,7 @@ const About = () => {
                 layout="fill"
                 className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
                 />
-                <div className="absolute w-[105%] h-[102%] z-[10]  bg-[#55e6a5]  rounded-xl">
+                <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl">
                 </div>
       
             </div>
