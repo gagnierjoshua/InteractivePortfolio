@@ -10,7 +10,7 @@ const Projects = () => {
     
             <div className=" bg-gradient-to-b gap-y-4  from-slate-800 to-teal-700 rounded-lg flex flex-col justify-center items-center hover:opacity-90  min-h-[350px] "  title="Click here for more">
                 
-                <h1 className="text-[20px]  font-bold uppercase text-green-400 md-[1rem]">
+                <h1 className="text-[20px]  font-bold uppercase text-[#55e6a5] md-[1rem]">
                     Web <span className="text-white">Dev </span>
                 </h1>
             
@@ -39,7 +39,7 @@ const Projects = () => {
             </div>
     {/* Embedded Highlight */}    
     <div className="bg-gradient-to-b  gap-y-4  from-slate-800 to-green-700 rounded-lg flex flex-col justify-center items-center  hover:opacity-90  min-h-[350px]">
-                <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
+                <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
                     Embedded<span className="text-white"> Eng</span>
                 </h1>
       
@@ -69,7 +69,7 @@ const Projects = () => {
             
     {/* Game Dev Highlight */}    
     <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-cyan-700 rounded-lg flex flex-col justify-center hover:opacity-90  items-center min-h-[350px]">
-                <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
+                <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
                     Game <span className="text-white"> Dev </span>
                 </h1>
 
@@ -99,7 +99,7 @@ const Projects = () => {
             </div>
     {/* Data Science/ML Highlight */}    
     <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-green-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">   
-                <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
+                <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
                     Data / <span className="text-white">ML</span> / AI
                 </h1>
          
@@ -128,7 +128,7 @@ const Projects = () => {
             </div>
     {/* Teaching Highlight */}    
     <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-lime-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">   
-                <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
+                <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
                     Edu<span className="text-white"> Leadership </span> 
                 </h1>
           

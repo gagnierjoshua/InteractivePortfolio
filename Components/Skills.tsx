@@ -260,14 +260,14 @@ const Skills = () => {
     <div id="Skills" className="pt-[5rem] pb-[3rem] bg-black">
       <div className="grid w-[80%] mx-auto grid-cols-1 lg:grid-cols-2 gap-[2rem]">
         <div>
-          <h1 className="text-[20px] font-bold uppercase text-green-400 md-[1rem]">
+          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Skills
             
 
             
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            Functional to <span className="text-green-400">Technical</span>
+            Functional to <span className="text-[#55e6a5]">Technical</span>
           </h2>
 
           <div className="grid border-double  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem]">
@@ -280,7 +280,7 @@ const Skills = () => {
             <Popover content={collaboration} trigger="hover">
             <div 
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Collaboration
               
@@ -305,7 +305,7 @@ const Skills = () => {
             <Popover content={presentation} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Presentation
               <div className="flex items-center align-middle justify-center">
@@ -331,7 +331,7 @@ const Skills = () => {
             <Popover content={creativity} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Creativity
               <div className="flex items-center align-middle justify-center">
@@ -355,7 +355,7 @@ const Skills = () => {
             <Popover content={adaptability} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Adaptability
               <div className="flex items-center align-middle justify-center">
@@ -379,7 +379,7 @@ const Skills = () => {
             <Popover content={mentorship} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Mentorship
               <div className="flex items-center align-middle justify-center">
@@ -403,7 +403,7 @@ const Skills = () => {
             <Popover content={reductionism} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Reductionism
               <div className="flex items-center align-middle justify-center">
@@ -432,7 +432,7 @@ const Skills = () => {
             <Popover content={agile} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Agile
               <div className="flex items-center align-middle justify-center">
@@ -462,7 +462,7 @@ const Skills = () => {
             <Popover content={learner} trigger="hover">
             <div
               className="text-green-600 font-semibold gap-[2rem] border-double text-center border-2 border-green-400
-                        border-t-green-500 bg-white hover:bg-slate-300 rounded md:rounded-lg "
+                        border-t-[#55e6a5] bg-white hover:bg-slate-300 rounded md:rounded-lg "
             >
               Learner
               <div className="flex items-center justify-center">
@@ -494,7 +494,7 @@ const Skills = () => {
         <Popover content={typescript} trigger="hover">
         <div
             className="text-white font-semibold  gap-[2rem] border-double text-center border-2 border-green-400
-         border-t-green-500 bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
+         border-t-[green-500] bg-green-700 hover:bg-green-600 rounded md:rounded-lg "
           >
             Typescript
             <div className="flex items-center align-middle justify-center">

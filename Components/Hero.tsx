@@ -19,7 +19,7 @@ const Hero = () => {
           <div>
               <h1 className="text-[35px] md:text-[50px] text-green-50 font-bold">
                 Hello, I&apos;m{" "}
-                  <span className="text-green-400">
+                  <span className="text-[#55e6a5]">
                   Josh Gagnier 
                   </span>
               </h1>      
