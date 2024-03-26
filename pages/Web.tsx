@@ -2,6 +2,7 @@ import Hero from "@/Components/Hero";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
+import Webtimeline from "@/Components/Webtimeline";
 import About from "@/Components/About";
 import Projects from "@/Components/Projects"; 
 import Skills from "@/Components/Skills";
@@ -58,7 +59,9 @@ const closeNav=() => setNav(false);
             <Nav openNav={openNav} />
           {/* Hero Section */} 
 
-          <p>WebDev Page</p>
+        {/*Webdev*/}
+
+          <Webtimeline />
 
 
 
