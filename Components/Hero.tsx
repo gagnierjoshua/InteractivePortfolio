@@ -7,10 +7,10 @@ const Hero = () => {
 
   
   return (
-    <div>
+    <div >
       <video 
       
-        className="absolute z-10 w-full object-cover top-300 left-0 max-h-[475px] min-h-[350px]"
+        className="absolute z-10 w-full object-cover top-300 left-0 top-0 max-h-[800px] min-h-[500px]"
         src={require("../public/videos/test.mp4")} 
         autoPlay 
         muted 
