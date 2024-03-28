@@ -6,7 +6,7 @@ function Webtimeline() {
   return (
 
 <div className="box-border p-8 border-4 border-gray-400 bg-gray-200">
-<div className="grid grid-cols-1  w-[92%] mx-auto gap-[1rem]  md:grid-cols-2 items-center  " >
+<div className=" w-[92%] mx-auto gap-[1rem]   items-center  " >
     <Timeline>
 
 
@@ -172,8 +172,25 @@ function Webtimeline() {
           <Timeline.Time>Step 7</Timeline.Time>
           <Timeline.Title>Backend Development</Timeline.Title>
           <Timeline.Body>
-           Prior to developing my own APIs utilized existing API/API keys to test functionality of the chrome extension. 
+
+          
+          <Card
+      className="max-w-sm"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="/videos/webscrapetest.gif"
+    >
+ 
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+      Prior to developing my own APIs utilized existing API/API keys to test functionality of the chrome extension. 
            Verified json data was being returned. 
+          
+
+      </p>
+    </Card>
+
+          
+
+          
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
@@ -185,9 +202,28 @@ function Webtimeline() {
           <Timeline.Time>Step 8</Timeline.Time>
           <Timeline.Title>GoLang API Development</Timeline.Title>
           <Timeline.Body>
-           Currently in development of internal GoLang API to handle data processing and cleaning of scraped data from Public APIs.
 
-           Once that is complete, will be publishing limited functionality MVPs to gather user feedback for continued development. 
+
+          <Card
+      className="max-w-sm"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="/images/postman.png"
+    >
+ 
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+ 
+      Currently in development of GoLang API to handle data processing and cleaning of scraped data from Public APIs.
+
+Developed & tested a REST API to move jsons in Postman.
+
+Once that is complete, will be publishing limited functionality MVPs to gather user feedback for continued development.
+          
+
+      </p>
+    </Card>
+
+
+ 
           </Timeline.Body>
         </Timeline.Content>
       </Timeline.Item>
