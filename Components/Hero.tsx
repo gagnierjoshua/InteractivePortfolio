@@ -9,11 +9,13 @@ const Hero = () => {
   return (
     <div>
       <video 
-        className="absolute z-10 w-full object-cover top-300 left-0 max-h-[400px] min-h-[325px]"
+      
+        className="absolute z-10 w-full object-cover top-300 left-0 max-h-[475px] min-h-[350px]"
         src={require("../public/videos/test.mp4")} 
         autoPlay 
         muted 
-        loop  
+        loop 
+         
        />
       <div  className="relative w-[80%] z-20 grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[30%] items-center">
           <div>
