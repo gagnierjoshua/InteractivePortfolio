@@ -2,7 +2,14 @@ gagnierjoshua.design <- url deployed on vercel
 
 Comments below are personal notes 
 
-
+Immediate changes needed still:
+- Change backround video (fix color or outright remove)
+- Fix border coloration and styling in skills
+- Change images for webdev, gamedev, Data/ML/AI (change this title), and edu leadership (change this title)
+- Add animations where appropriate
+- Make project cards each clickable links to their respective pages (as it is in the nav bar)
+- Create page structure and fill in content for each of the projects
+- For each of the project cards on hover, or above the cards make it very clear to click to see more
 
 
 ======================
@@ -135,5 +142,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-----------
-Feedback round 1
