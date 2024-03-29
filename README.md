@@ -1,3 +1,13 @@
+gagnierjoshua.design <- url deployed on vercel
+
+Comments below are personal notes 
+
+
+
+
+======================
+
+
 # InteractivePortfolio
 An Interactive Portfolio 
 **Introduction**
