@@ -10,6 +10,7 @@ Immediate changes needed still:
 - Make project cards each clickable links to their respective pages (as it is in the nav bar)
 - Create page structure and fill in content for each of the projects
 - For each of the project cards on hover, or above the cards make it very clear to click to see more
+- have popup dissapear for skills when off of button itself 
 
 
 ======================
@@ -137,6 +138,10 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
+
+
+
+https://zyro.com/ai/heatmap
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
