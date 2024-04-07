@@ -11,7 +11,13 @@ Immediate changes needed still:
 - Create page structure and fill in content for each of the projects
 - For each of the project cards on hover, or above the cards make it very clear to click to see more
 - have popup dissapear for skills when off of button itself 
+- non aggersive fonts fontshare.com/pairs find a nice pairing
+- make sans dont and fix
+- div inside of circle radius 
 
+https://fffuel.co/
+
+https://zyro.com/ai/heatmap
 
 ======================
 
@@ -54,6 +60,9 @@ https://codepen.io/matteobruni/pen/ExObGXE
 
 https://michalsnik.github.io/aos/
 
+https://undraw.co/illustrations
+
+
 
 https://tailwindcss.com/docs/border-radius
 
@@ -72,6 +81,7 @@ https://tw-elements.com/docs/standard/components/social-buttons/ (didnt work)
 https://flowbite.com/icons/
 
 https://devicon.dev/
+https://www.framer.com/motion/
 
 https://www.tailwindtoolbox.com/icons
 
@@ -141,7 +151,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 
 
-https://zyro.com/ai/heatmap
+
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
