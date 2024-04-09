@@ -12,7 +12,7 @@ non aggersive fonts fontshare.com/pairs find a nice pairing
 make sans dont and fix
 div inside of circle radius
 https://fffuel.co/
-
+https://tailwind.build/classes
 https://zyro.com/ai/heatmap
 
 ----------

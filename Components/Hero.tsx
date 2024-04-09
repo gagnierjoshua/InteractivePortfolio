@@ -5,7 +5,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="pt-5">
       <video
         className="absolute z-10 w-full object-cover top-300 left-0 top-0 max-h-[800px] min-h-[500px]"
         src={require("../public/videos/test.mp4")}
@@ -15,11 +15,15 @@ const Hero = () => {
       />
       <div className="relative w-[80%] z-20 grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[30%] items-center">
         <div>
-          <h1 className="text-[35px] md:text-[50px] text-green-50 font-bold">
-            Hello, I&apos;m <span className="text-[#55e6a5]">Josh Gagnier</span>
-          </h1>
+        <h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block md:inline">
+  Hello,&nbsp;
+</h1>
+<h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block md:inline">
+  I&apos;m <span className="text-white">Josh Gagnier</span>
+</h1>
+<br />
           <TextEffect />
-          <p className="mt-[1rem] text-[20px] text-white">
+          <p className="mt-[1rem] text-[1rem] font-medium    text-white">
             Veteran STEM education leader with a passion for software
             architecture, web, embedded, and game development.
           </p>
