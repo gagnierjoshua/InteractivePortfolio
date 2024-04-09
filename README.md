@@ -1,25 +1,48 @@
-gagnierjoshua.design <- url deployed on vercel
-
-Comments below are personal notes 
-
 Immediate changes needed still:
-- Change backround video (fix color or outright remove)
-- Fix border coloration and styling in skills
-- Change images for webdev, gamedev, Data/ML/AI (change this title), and edu leadership (change this title)
-- Add animations where appropriate
-- Make project cards each clickable links to their respective pages (as it is in the nav bar)
-- Create page structure and fill in content for each of the projects
-- For each of the project cards on hover, or above the cards make it very clear to click to see more
-- have popup dissapear for skills when off of button itself 
-- non aggersive fonts fontshare.com/pairs find a nice pairing
-- make sans dont and fix
-- div inside of circle radius 
 
+Change backround video (fix color or outright remove)
+Fix border coloration and styling in skills
+Change images for webdev, gamedev, Data/ML/AI (change this title), and edu leadership (change this title)
+Add animations where appropriate
+Make project cards each clickable links to their respective pages (as it is in the nav bar)
+Create page structure and fill in content for each of the projects
+For each of the project cards on hover, or above the cards make it very clear to click to see more
+have popup dissapear for skills when off of button itself
+non aggersive fonts fontshare.com/pairs find a nice pairing
+make sans dont and fix
+div inside of circle radius
 https://fffuel.co/
 
 https://zyro.com/ai/heatmap
 
-======================
+----------
+Revisions to be made 3/25
+
+top bar joshgagnier / home etc. same font size
+social media icons larger/thicker
+
+new cover image
+background video change to slideshow
+change font at about me 
+webdev - san serif not serif
+
+on mobile form space out about me  and dreams to reality change size porportionally again
+try flipping size of title vs sub title (large vs small)
+
+
+in skills change font of green boxes to match white, and make practical icons same size as technical
+
+remove borders from skills 
+
+for projects make it gradiate across 
+
+for projects different images (crop embedded images)
+for Gadme dev better image
+Data/ML better image
+Edu Leadership 
+
+Footer all circle like github
+
 
 
 # InteractivePortfolio
@@ -60,9 +83,6 @@ https://codepen.io/matteobruni/pen/ExObGXE
 
 https://michalsnik.github.io/aos/
 
-https://undraw.co/illustrations
-
-
 
 https://tailwindcss.com/docs/border-radius
 
@@ -81,7 +101,6 @@ https://tw-elements.com/docs/standard/components/social-buttons/ (didnt work)
 https://flowbite.com/icons/
 
 https://devicon.dev/
-https://www.framer.com/motion/
 
 https://www.tailwindtoolbox.com/icons
 
@@ -148,10 +167,6 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
-
-
-
-
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
