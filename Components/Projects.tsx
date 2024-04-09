@@ -14,7 +14,7 @@ const Projects = () => {
           className=" bg-gradient-to-b gap-y-4  from-slate-800 to-teal-700 rounded-lg flex flex-col justify-center items-center hover:opacity-90  min-h-[350px] "
           title="Click here for more"
         >
-          <h1 className="text-[20px]  font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="text-[20px] pt-5  font-bold uppercase text-[#55e6a5] md-[1rem]">
             Web <span className="text-white">Dev </span>
           </h1>
 
@@ -29,7 +29,7 @@ const Projects = () => {
             </div>
 
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 Web scraping google chrome extension that utilizes APIs to
                 scrape data from websites and outputs csv files of text cleaned
                 to the check-box specifications.
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
         {/* Embedded Highlight */}
         <div className="bg-gradient-to-b  gap-y-4  from-slate-800 to-green-700 rounded-lg flex flex-col justify-center items-center  hover:opacity-90  min-h-[350px]">
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Embedded<span className="text-white"> Eng</span>
           </h1>
 
@@ -53,7 +53,7 @@ const Projects = () => {
               />
             </div>
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 I have made guides and developed of hundreds of prototype
                 devices utilizing a far range of embedded devices interfacing
                 with ARM, ESP, Raspberry Pi, and Arduino microcontrollers.
@@ -64,7 +64,7 @@ const Projects = () => {
 
         {/* Game Dev Highlight */}
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-cyan-700 rounded-lg flex flex-col justify-center hover:opacity-90  items-center min-h-[350px]">
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className=" pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Game <span className="text-white"> Dev </span>
           </h1>
 
@@ -79,7 +79,7 @@ const Projects = () => {
             </div>
 
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+              <p className="pt-5 text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 In hobby and for educuation, I have developed several games in
                 C++ utilizing low-level libraries and engines such as Raylib.
               </p>
@@ -88,7 +88,7 @@ const Projects = () => {
         </div>
         {/* Data Science/ML Highlight */}
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-green-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Data / <span className="text-white">ML</span> / AI
           </h1>
 
@@ -102,7 +102,7 @@ const Projects = () => {
               />
             </div>
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 As employed as a mentor teacher for university research programs
                 I have coached students in Astronomy and Physics data analysis.
               </p>
@@ -111,7 +111,7 @@ const Projects = () => {
         </div>
         {/* Teaching Highlight */}
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-lime-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Edu<span className="text-white"> Leadership </span>
           </h1>
 
@@ -125,7 +125,7 @@ const Projects = () => {
               />
             </div>
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
-              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[150px] text-center overflow-auto">
+              <p className="text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 Progressively taken on increasing responsibility leadership
                 roles as a master teacher, mentor teacher, state standards
                 trainer, county curriculum specialist, and presenter over the

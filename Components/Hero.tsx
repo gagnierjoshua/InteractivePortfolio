@@ -15,7 +15,7 @@ const Hero = () => {
       />
       <div className="relative w-[80%] z-20 grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[30%] items-center">
         <div>
-        <h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block md:inline">
+        <h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block 2xl:inline">
   Hello,&nbsp;
 </h1>
 <h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block md:inline">
