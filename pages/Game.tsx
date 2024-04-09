@@ -1,10 +1,10 @@
-import Hero from "@/Components/Hero";
+
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
-import About from "@/Components/About";
-import Projects from "@/Components/Projects";
-import Skills from "@/Components/Skills";
+import Gameone from "@/Components/Gameone";
+import Gametwo from "@/Components/Gametwo";
+import Gamethree from "@/Components/Gamethree";
 import Footer from "@/Components/Footer";
 import AOS from "aos";
 import "flowbite";
@@ -50,11 +50,13 @@ const Game = () => {
         <MobileNav nav={nav} closeNav={closeNav} />
         {/* Desktop Navbar */}
         <Nav openNav={openNav} />
-        {/* Hero Section */}
 
-        <p>GameDev Page</p>
-
-        {/* Contact Section */}
+          {/* Gameone Section */}
+          <Gameone />
+          {/* Gametwo Section */}
+          <Gametwo />
+          {/* Gamethree Section */}
+          <Gamethree />
 
         <Footer />
       </div>
