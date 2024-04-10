@@ -1,10 +1,8 @@
-import Hero from "@/Components/Hero";
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
-import About from "@/Components/About";
-import Projects from "@/Components/Projects";
-import Skills from "@/Components/Skills";
+import DataScience from "@/Components/DataScience";
+import AiChat from "@/Components/AiChat";
 import Footer from "@/Components/Footer";
 import AOS from "aos";
 import "flowbite";
@@ -45,20 +43,20 @@ const Data = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <div>
-        {/* Mobile Navbar */}
-        <MobileNav nav={nav} closeNav={closeNav} />
-        {/* Desktop Navbar */}
-        <Nav openNav={openNav} />
-        {/* Hero Section */}
+    <div>
+      {/* Mobile Navbar */}
+      <MobileNav nav={nav} closeNav={closeNav} />
+      {/* Desktop Navbar */}
+      <Nav openNav={openNav} />
 
-        <p>Data Science ML AI Page</p>
+        {/* Data Science Section */}
+        <DataScience />
 
-        {/* Contact Section */}
-
-        <Footer />
-      </div>
+        <AiChat />
+        {/* Footer Section */}
+      <Footer />
     </div>
+  </div>
   );
 };
 
