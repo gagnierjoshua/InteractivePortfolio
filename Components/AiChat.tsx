@@ -1,7 +1,16 @@
+import Particle from "./Particle";
+
+
 
 const AiChat = () => {
   return (
-<p>hi</p>
+    
+    <div className="App">
+    <Particle />
+    <p>hi</p>
+
+    </div>  
+
   );
 };
 
