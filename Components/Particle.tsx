@@ -13,7 +13,7 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
+  const particlesLoaded = (container: HTMLElement) => {
   };
 
   return (
