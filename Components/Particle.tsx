@@ -38,7 +38,7 @@ export default function Particle() {
                   enable: true,
                   mode: "repulse",
                 },
-                resize: true,
+                resize: {},
               },
               modes: {
                 push: {
