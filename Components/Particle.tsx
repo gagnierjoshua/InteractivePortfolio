@@ -38,7 +38,7 @@ export default function Particle() {
                   enable: true,
                   mode: "repulse",
                 },
-                resize: {},
+                resize: true,
               },
               modes: {
                 push: {
@@ -74,7 +74,7 @@ export default function Particle() {
               number: {
                 density: {
                   enable: true,
-                  area: 800,
+                  value_area: 800,
                 },
                 value: 160,
               },
