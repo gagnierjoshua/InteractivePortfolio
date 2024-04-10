@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-
+import { Container } from "tsparticles";
 import { loadFull } from "tsparticles";
+
+
 export default function Particle() {
   const [init, setInit] = useState(false);
   useEffect(() => {
@@ -13,7 +15,7 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = (container: HTMLElement) => {
+  const particlesLoaded = async (container?: Container) => {
   };
 
   return (
