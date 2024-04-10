@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { Container } from "tsparticles";
 import { loadFull } from "tsparticles";
 
 
@@ -15,7 +14,7 @@ export default function Particle() {
     });
   }, []);
 
-  const particlesLoaded = async (container?: Container) => {
+  const particlesLoaded = (container: any)  => {
   };
 
   return (
