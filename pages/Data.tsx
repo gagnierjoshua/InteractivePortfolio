@@ -2,7 +2,7 @@ import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
 import DataScience from "@/Components/DataScience";
-import AiChat from "@/Components/AiChat";
+
 import Footer from "@/Components/Footer";
 import AOS from "aos";
 import "flowbite";
@@ -51,8 +51,6 @@ const Data = () => {
 
         {/* Data Science Section */}
         <DataScience />
-
-        <AiChat />
         {/* Footer Section */}
       <Footer />
     </div>
