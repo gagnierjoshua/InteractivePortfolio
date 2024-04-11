@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Address*/}
         <div className="flex items-center space-x-6">
           <div
-            className="md:w-[6.5rem] md;h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center
+            className="w-[6.5rem] h-[6.5rem]  flex items-center justify-center
                     rounded-full bg-black"
           >
             <MapIcon className="md:w-[5rem] md:h-[rem] w-[3rem] h-[3em] text-[#55e6a5]" />
@@ -29,8 +29,7 @@ const Footer = () => {
         {/* LinkedIn */}
         <div className="flex items-center space-x-6">
           <div
-            className="md:w-[6.5rem] md;h-[6.5rem] w-[5rem] h-[5rem]  flex items-center justify-center
-                    rounded-full bg-black"
+            className="w-[6.5rem] h-[6.5rem] flex items-center justify-center rounded-full bg-black"
           >
             {/* LI SVG */}
             <a href="https://www.linkedin.com/in/gagnierjoshua/">
@@ -61,7 +60,7 @@ const Footer = () => {
         {/* GitHub */}
         <div className="flex items-center space-x-6">
           <div
-            className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem]  flex items-center justify-center
+            className="w-[6.5rem] h-[6.5rem]   flex items-center justify-center
                     rounded-full bg-black"
           >
             {/* GH SVG */}
@@ -92,7 +91,7 @@ const Footer = () => {
         {/* Twitter */}
         <div className="flex items-center space-x-6">
           <div
-            className="md:w-[6.5rem] md;h-[6.5rem] w-[5rem] h-[5rem]  flex items-center justify-center
+            className="w-[6.5rem] h-[6.5rem]  flex items-center justify-center
                     rounded-full bg-black"
           >
             {/* Twitter SVG */}

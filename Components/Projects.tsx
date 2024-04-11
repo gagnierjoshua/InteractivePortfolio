@@ -89,7 +89,7 @@ const Projects = () => {
         {/* Data Science/ML Highlight */}
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-green-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
           <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-            Data / <span className="text-white">ML</span> / AI
+            ML <span className="text-white">& AI</span> 
           </h1>
 
           <div className=" grid grid-rows-2 justify-center  items-center">
@@ -112,7 +112,7 @@ const Projects = () => {
         {/* Teaching Highlight */}
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-lime-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
           <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-            Edu<span className="text-white"> Leadership </span>
+          Leadership<span className="text-white">  </span>
           </h1>
 
           <div className=" grid grid-rows-2 justify-center  items-center">
