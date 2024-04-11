@@ -26,7 +26,7 @@ function Webtimeline() {
 
 
 
-    <Card className="max-w-sm max-w-lg max-w-lg-[mb-8] max-h-[650px]" >
+    <Card className="max-w-sm max-w-lg-[mb-8] max-h-[650px]" >
     <div className="flex items-center justify-center"> 
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Project #1 Title
