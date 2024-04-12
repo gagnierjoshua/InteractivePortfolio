@@ -38,7 +38,7 @@ const EmbeddedContent = () => {
   <Diagram
 
   animation={{
-    property: 'height',
+    
     type: 'pulse',
     duration: 2000,
     size: 'medium',
