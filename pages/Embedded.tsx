@@ -4,7 +4,7 @@ import Nav from "@/Components/Nav";
 import React, { useEffect, useState } from "react";
 import About from "@/Components/About";
 import Projects from "@/Components/Projects";
-import Skills from "@/Components/Skills";
+import EmbeddedContent from "@/Components/EmbeddedContent";
 import Footer from "@/Components/Footer";
 import AOS from "aos";
 import "flowbite";
@@ -52,7 +52,7 @@ const Embedded = () => {
         <Nav openNav={openNav} />
         {/* Hero Section */}
 
-        <p>Embedded Page</p>
+        <EmbeddedContent />
 
         {/* Contact Section */}
 
