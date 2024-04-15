@@ -133,7 +133,9 @@ const EmbeddedContent = () => {
           <Tabs.Item title="IoT & BT" icon={HiOutlineWifi}>
           
 
-          <div className="flex justify-between">
+          <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
+
+
           <div className="overflow-x-auto">
 
       <Table>
@@ -215,9 +217,13 @@ const EmbeddedContent = () => {
         </Table.Body>
       </Table>
     </div>
-    <div className="text-center">
-    <p>text</p>
 
+
+    <div className="text-center ">
+    <p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+
+    </p>
+    
 
     </div>
     </div>
@@ -228,14 +234,273 @@ const EmbeddedContent = () => {
             
           </Tabs.Item>
           <Tabs.Item title="Mechanical" icon={HiCog}>
-            This is <span className="font-medium text-gray-800 dark:text-white">Settings tab's associated content</span>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-            control the content visibility and styling.
+
+
+
+
+          <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
+
+
+<div className="overflow-x-auto">
+
+<Table>
+<Table.Head>
+<Table.HeadCell>Device Name</Table.HeadCell>
+<Table.HeadCell>Utilization</Table.HeadCell>
+<Table.HeadCell>Image</Table.HeadCell>
+</Table.Head>
+<Table.Body className="">
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    {'Servo Motor'}
+  </Table.Cell>
+  <Table.Cell>
+    
+    Robotic arm? Percise movement? Cars? Servos are the go-to for any project requiring movement used in most projects.
+    
+    
+    </Table.Cell>
+  <Table.Cell>
+
+
+    <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/servo.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+<p> </p>
+
+  </div>
+
+  </Table.Cell>
+</Table.Row>
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    Stepper Motor
+  </Table.Cell>
+  <Table.Cell>
+    
+  Used for projects typically not reliant on high speed but for robust durability and strength. 
+
+
+    </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/stepper_motor.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+
+</div>
+</Table.Cell>
+</Table.Row>
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    
+    Relays
+  
+  
+   </Table.Cell>
+  <Table.Cell> 
+    
+   Dozens of projects supported utilizing pumps, lights, motors with a large external power source needing to be turned on and off
+   utilize relays for control.   
+
+  <br />
+  <br />
+  Also the go to for repurposing old electronics for new projects with a little soldering and love. 
+    
+    </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/relay.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+  </div>
+
+</Table.Cell>
+</Table.Row>
+
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+
+
+  <Table.Cell className="whitespace-nowrap font-medium te text-gray-900 dark:text-white text-xl">
+    
+    Motor <br /> Controllers
+    
+    
+    </Table.Cell>
+  <Table.Cell> 
+   
+  When a servo won't get the job done by it's limitations (usually power and speed) and a requires a motor to be controlled with precision, and accuracy a motor controller is the go-to.
+
+
+
+    </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/motor_control.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+  </div>
+
+</Table.Cell>
+</Table.Row>
+
+
+
+
+
+</Table.Body>
+</Table>
+</div>
+
+
+<div className="text-center ">
+<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+
+</p>
+
+
+</div>
+</div>
+
+
+
+
+
           </Tabs.Item>
+
+    
           <Tabs.Item title="Research" icon={HiOutlineBeaker }>
-            This is <span className="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</span>.
-            Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-            control the content visibility and styling.
+
+
+
+
+          <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
+
+
+<div className="overflow-x-auto">
+
+<Table>
+<Table.Head>
+<Table.HeadCell>Device Name</Table.HeadCell>
+<Table.HeadCell>Utilization</Table.HeadCell>
+<Table.HeadCell>Image</Table.HeadCell>
+</Table.Head>
+<Table.Body className="">
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    {'Gas Sensors'}
+  </Table.Cell>
+  <Table.Cell>
+    
+    Whether it be for carbon monoxide, methane, dust, or other gasses I have supported development
+    of dozens of projects utilizing gas sensors for safety, environmental, and health applications.
+    
+    </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/dust_sensor.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+<p> </p>
+
+  </div>
+
+  </Table.Cell>
+</Table.Row>
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    Light Sensors
+  </Table.Cell>
+  <Table.Cell>
+    Detecting light of all kinds, I have supported utilizing light sensors for data collection,
+    research, and project development. 
+     
+     </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/rgb_sensor.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+
+</div>
+</Table.Cell>
+</Table.Row>
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  Motion Sensors
+   </Table.Cell>
+  <Table.Cell>
+     Both ultrasonic, and PIR motion sensors have been used in dozens of projects for security, automation, and data collection.
+    </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/motion_sensor.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+  </div>
+
+</Table.Cell>
+</Table.Row>
+<Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+    Chemical Sensors
+  
+  </Table.Cell>
+  <Table.Cell>
+     Detecing water level, ph, and other chemical properties I have supported the development of dozens of projects utilizing chemical sensors for environmental, health, and safety applications.
+     
+     </Table.Cell>
+  <Table.Cell>
+    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+backgroundImage: `url("/images/ph_sensor.jpg")`,
+backgroundSize: 'contain',
+backgroundRepeat: 'no-repeat',
+backgroundPosition: 'center',
+}}>
+
+  </div>
+
+</Table.Cell>
+</Table.Row>
+
+</Table.Body>
+</Table>
+</div>
+
+
+<div className="text-center ">
+<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+
+</p>
+
+
+</div>
+</div>
+
+
+
+
+
           </Tabs.Item>
 
         </Tabs>
