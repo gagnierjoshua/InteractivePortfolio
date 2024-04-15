@@ -220,10 +220,27 @@ const EmbeddedContent = () => {
 
 
     <div className="text-center ">
-    <p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+    <p>
+
+    
+      <div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/iot.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+        Connectivity drives the world.
+      <br /><br />
+      Developing and technically supporting, coaching, and guiding the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices has helped me understand the importance and design flow of connectivity in the modern world.
+<br /><br />
+
 
     </p>
-    
+  
 
     </div>
     </div>
@@ -306,6 +323,8 @@ backgroundPosition: 'center',
    </Table.Cell>
   <Table.Cell> 
     
+
+    
    Dozens of projects supported utilizing pumps, lights, motors with a large external power source needing to be turned on and off
    utilize relays for control.   
 
@@ -366,6 +385,18 @@ backgroundPosition: 'center',
 
 
 <div className="text-center ">
+
+<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/mechanical.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+
 <p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
 
 </p>
@@ -467,7 +498,7 @@ backgroundPosition: 'center',
   
   </Table.Cell>
   <Table.Cell>
-     Detecing water level, ph, and other chemical properties I have supported the development of dozens of projects utilizing chemical sensors for environmental, health, and safety applications.
+     Detecting water level, ph, and other chemical properties I have supported the development of dozens of projects utilizing chemical sensors for environmental, health, and safety applications.
      
      </Table.Cell>
   <Table.Cell>
@@ -489,6 +520,19 @@ backgroundPosition: 'center',
 
 
 <div className="text-center ">
+
+
+<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/researchc.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+
 <p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
 
 </p>
