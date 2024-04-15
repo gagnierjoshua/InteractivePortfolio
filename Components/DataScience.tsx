@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Card } from "flowbite-react";
 
 
 const DataScience = () => {
@@ -19,12 +20,21 @@ const DataScience = () => {
         <div className="grid grid-cols-2 gap-4">
 
         <div className="p-4 text-white  items-center text-center align-middle flex flex-col justify-center">
-                    <p>In partnership with Caltech University, I taught, mentored, and supported high students in astronomy research.</p>
+                    
+                    
+        <Card href="#" className="max-w-sm">
+ 
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+      <p>In partnership with Caltech University, I taught, mentored, and supported high students in astronomy research.</p>
                     <br />
                     <p>
                         These graphs utilized Python, Pandas, Numpy, Astropy and Matplotlib to analyze data in Jupyter Notebooks.
                     </p>
-                    <br />
+      </p>
+    </Card> 
+                    
+                   
+                   
                  
         </div>
         <div className="p-4 items-center text-center align-middle flex flex-col justify-center">
@@ -34,7 +44,11 @@ const DataScience = () => {
                     <Image src="/images/plots2.gif" alt="Your Image" width={500} height={300} />
                 </div>
                 <div className="p-4 text-white  items-center text-center align-middle flex flex-col justify-center">
-                    <p> 
+                   
+                <Card href="#" className="max-w-sm">
+
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+      <p> 
                         Some of the data being directly compared and contrasted graphically was: <br /><br />
                     
                         <ul>
@@ -49,16 +63,24 @@ const DataScience = () => {
 
 
                     </p>
+      </p>
+    </Card>
+                   
+                
                 </div>
                 <div className="p-4 text-white  items-center text-center align-middle flex flex-col justify-center">
                     <p>
+        
                         
+                        <Card href="#" className="max-w-sm">
 
-                   
-                        The majority of students engaging in this project had no research or python experience prior. <br /><br />
+<p className="font-normal text-gray-700 dark:text-gray-400">
+The majority of students engaging in this project had no research or python experience prior.
                         
+</p>
+</Card>
 
-                 
+
                     </p>
                 </div>
                 <div className="p-4 items-center text-center align-middle flex flex-col justify-center"   >

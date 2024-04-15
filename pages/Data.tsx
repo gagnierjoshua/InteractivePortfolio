@@ -1,5 +1,6 @@
 import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
+import Ai from "@/Components/Ai";
 import React, { useEffect, useState } from "react";
 import DataScience from "@/Components/DataScience";
 
@@ -48,9 +49,11 @@ const Data = () => {
       <MobileNav nav={nav} closeNav={closeNav} />
       {/* Desktop Navbar */}
       <Nav openNav={openNav} />
-
         {/* Data Science Section */}
         <DataScience />
+
+        {/* AI Section */}
+        <Ai />
         {/* Footer Section */}
       <Footer />
     </div>

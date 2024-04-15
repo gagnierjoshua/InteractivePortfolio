@@ -1,6 +1,11 @@
 Immediate changes needed still:
+For embedded page on mobile: 
+Have sizing of bars & icons shrink down to fit properly on a mobile screen 
+Same deal for grid in particular, the grid/table is taking up more than the horizontal width of the screen. 
 
-Change backround video (fix color or outright remove)
+
+
+
 Fix border coloration and styling in skills
 Change images for webdev, gamedev, Data/ML/AI (change this title), and edu leadership (change this title)
 Add animations where appropriate
@@ -16,6 +21,10 @@ https://tailwind.build/classes
 https://zyro.com/ai/heatmap
 
 ----------
+
+
+
+
 Revisions to be made 3/25
 
 top bar joshgagnier / home etc. same font size
