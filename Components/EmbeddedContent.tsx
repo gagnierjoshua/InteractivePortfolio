@@ -140,28 +140,78 @@ const EmbeddedContent = () => {
         <Table.Head>
           <Table.HeadCell>Device Name</Table.HeadCell>
           <Table.HeadCell>Utilization</Table.HeadCell>
-    
+          <Table.HeadCell>Image</Table.HeadCell>
         </Table.Head>
         <Table.Body className="">
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-              {'Apple MacBook Pro 17"'}
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+              {'HC-05'}
             </Table.Cell>
-            <Table.Cell>Sliver</Table.Cell>
-       
+            <Table.Cell>
+              
+              
+              A go-to and still commonly used for mobile BT driven, Master-Slave, or mesh network prototypes. The HC-05 is robust, simple to use, and quick to spin up wireless functionality.</Table.Cell>
+            <Table.Cell>
+              <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+    backgroundImage: `url("/images/hc05.jpg")`,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}>
+<p> </p>
+
+            </div>
+
+            </Table.Cell>
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-              Microsoft Surface Pro
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+              ESP-32
             </Table.Cell>
-            <Table.Cell>White</Table.Cell>
-         
+            <Table.Cell>For initial Wifi experimentation I utilized these adapters to connect Arduino to internet applications & databases.</Table.Cell>
+            <Table.Cell>
+              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    backgroundImage: `url("/images/espa.jpg")`,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}>
+
+
+</div>
+          </Table.Cell>
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">Magic Mouse 2</Table.Cell>
-            <Table.Cell>Black</Table.Cell>
-       
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">NodeMCU <br /> ESP8266 </Table.Cell>
+            <Table.Cell> These wifi integrated boards simplified IoT and Alexa integrated applications due to their common usage for prototyping. </Table.Cell>
+            <Table.Cell>
+              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    backgroundImage: `url("/images/espb.jpg")`,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}>
+
+            </div>
+
+          </Table.Cell>
           </Table.Row>
+          <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">Redboard <br /> Artemis </Table.Cell>
+            <Table.Cell> Each Artemis is equipped with built in BT, which was used for a easy set-up mesh network. Was used for muscle sensing devices, though I plan on using the other board features in future development.</Table.Cell>
+            <Table.Cell>
+              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    backgroundImage: `url("/images/sparkfun.jpg")`,
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }}>
+     
+            </div>
+
+          </Table.Cell>
+          </Table.Row>
+
         </Table.Body>
       </Table>
     </div>
