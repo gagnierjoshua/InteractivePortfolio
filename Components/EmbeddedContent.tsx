@@ -32,32 +32,12 @@ const EmbeddedContent = () => {
 
 
 
-<div className=" grid-cols-1 mx-auto grid lg:grid-cols-2">
-
-
-           <div className="text-center items-center px-10 w-80% ">
-            
-            
-            Since 2018 I've completed personal projects and supported students solving problems competitively with great success utilizing the engineering design process primarily with embedded devices. 
-            <br />
-            <br />
-            I've worked with students to identify problems, select platforms, sensors, and devices, and develop prototypes for an extremely wide range of solutions.
-            <br />
-            <br />
-            As a result I have amassed hundreds of sensors and thousands of devices to integrate with 
-            the 80+ boards I have in my collection.
-            <br />
-            <br />
-
-            I am at a point where given any problem I can identify a platform, sensors, and devices to build a functioning protoype. 
-            
-
-            </div>
+<div className=" grid-cols-1 mx-auto grid lg:grid-cols-2 text-center items-center">
 
 
 
-            <div className="w-[80%] width-[650px]  justify-center items-center">
-  <div className="flex justify-center items-center">
+<div className="flex width-[650px]  justify-center items-center">
+  <div className="flex px-10 justify-center items-center ">
 
         
           <Stack guidingChild={1}>
@@ -119,7 +99,33 @@ const EmbeddedContent = () => {
   </Box>
 </Stack>
 </div>
+
+
+
+
   </div>
+
+
+
+
+           <div className="text-center items-center px-10 w-80% ">
+            
+            
+            Since 2018 I've completed personal projects and supported students solving problems competitively with great success utilizing the engineering design process primarily with embedded devices. 
+            <br />
+            <br />
+            I've worked with students to identify problems, select platforms, sensors, and devices, and develop prototypes for an extremely wide range of solutions.
+            <br />
+            <br />
+            As a result I have amassed hundreds of sensors and thousands of devices to integrate with 
+            the 80+ boards I have in my collection.
+            <br />
+            <br />
+
+            I am at a point where given any problem I can identify a platform, sensors, and devices to build a functioning protoype. 
+            
+
+            </div>
 
 
 
@@ -135,6 +141,30 @@ const EmbeddedContent = () => {
 
           <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
 
+          <div className="text-center ">
+    <p>
+
+    
+      <div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/iot.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+        Connectivity drives the world.
+      <br /><br />
+      Developing and technically supporting, coaching, and guiding the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices has helped me understand the importance and design flow of connectivity in the modern world.
+<br /><br />
+
+
+    </p>
+  
+
+    </div>
 
           <div className="overflow-x-auto">
 
@@ -219,30 +249,7 @@ const EmbeddedContent = () => {
     </div>
 
 
-    <div className="text-center ">
-    <p>
-
-    
-      <div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
-          <Image
-            src="/images/iot.png"
-            alt="Joshua Gagnier"
-            layout="fill"
-            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
-          />
-          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
-        </div>
-        <br /><br />
-        Connectivity drives the world.
-      <br /><br />
-      Developing and technically supporting, coaching, and guiding the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices has helped me understand the importance and design flow of connectivity in the modern world.
-<br /><br />
-
-
-    </p>
-  
-
-    </div>
+   
     </div>
 
 
@@ -257,6 +264,27 @@ const EmbeddedContent = () => {
 
           <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
 
+
+
+          <div className="text-center ">
+
+<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/mechanical.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+
+<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+
+</p>
+
+
+</div>
 
 <div className="overflow-x-auto">
 
@@ -384,25 +412,6 @@ backgroundPosition: 'center',
 </div>
 
 
-<div className="text-center ">
-
-<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
-          <Image
-            src="/images/mechanical.png"
-            alt="Joshua Gagnier"
-            layout="fill"
-            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
-          />
-          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
-        </div>
-        <br /><br />
-
-<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
-
-</p>
-
-
-</div>
 </div>
 
 
@@ -419,6 +428,27 @@ backgroundPosition: 'center',
 
           <div className="grid grid-cols-1 w-[95%] mx-auto gap-[1rem] md:grid-cols-2 items-center">
 
+
+          <div className="text-center ">
+
+
+<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
+          <Image
+            src="/images/researchc.png"
+            alt="Joshua Gagnier"
+            layout="fill"
+            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
+          />
+          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
+        </div>
+        <br /><br />
+
+<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
+
+</p>
+
+
+</div>
 
 <div className="overflow-x-auto">
 
@@ -519,26 +549,6 @@ backgroundPosition: 'center',
 </div>
 
 
-<div className="text-center ">
-
-
-<div className="lg:w-[350px] mx-auto md:x-0 mt-[2rem] lg:mt-0 lg:h-[350px] w-[300px] h-[300px] relative">
-          <Image
-            src="/images/researchc.png"
-            alt="Joshua Gagnier"
-            layout="fill"
-            className="relative z-[11] w-[100%] h-[100%] object-cover rounded-xl"
-          />
-          <div className="absolute w-[105%] h-[102%] z-[10]    rounded-xl"></div>
-        </div>
-        <br /><br />
-
-<p>I have supported technically and guided the development of dozens of mesh, wifi, bluetooth, phone-app, and voice controlled devices. 
-
-</p>
-
-
-</div>
 </div>
 
 
