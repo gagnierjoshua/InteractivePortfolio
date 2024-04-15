@@ -12,7 +12,7 @@ const DataScience = () => {
         
         
             <div>
-                <h1 className="text-4xl text-center text-white mb-8">Galatic Research </h1>
+                <h1 className="text-5xl text-center text-white mb-8">Galatic Research </h1>
                
             </div>
 

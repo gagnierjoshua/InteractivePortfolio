@@ -15,7 +15,7 @@ const EmbeddedContent = () => {
     return (
       
 
-        <div className="overflow-x-auto">
+        <div className="overflow-x-auto pb-">
 
             <div className="text-center text-3xl">
               <br />
@@ -170,13 +170,13 @@ const EmbeddedContent = () => {
 
       <Table>
         <Table.Head>
-          <Table.HeadCell>Device Name</Table.HeadCell>
+          <Table.HeadCell>Device</Table.HeadCell>
           <Table.HeadCell>Utilization</Table.HeadCell>
           <Table.HeadCell>Image</Table.HeadCell>
         </Table.Head>
         <Table.Body className="">
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
               {'HC-05'}
             </Table.Cell>
             <Table.Cell>
@@ -184,7 +184,7 @@ const EmbeddedContent = () => {
               
               A go-to and still commonly used for mobile BT driven, Master-Slave, or mesh network prototypes. The HC-05 is robust, simple to use, and quick to spin up wireless functionality.</Table.Cell>
             <Table.Cell>
-              <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+              <div className="w-full h-full flex items-center min-w-[100px] min-h-[100px]"   style={{
     backgroundImage: `url("/images/hc05.jpg")`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
@@ -197,12 +197,12 @@ const EmbeddedContent = () => {
             </Table.Cell>
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
               ESP-32
             </Table.Cell>
             <Table.Cell>For initial Wifi experimentation I utilized these adapters to connect Arduino to internet applications & databases.</Table.Cell>
             <Table.Cell>
-              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+              <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
     backgroundImage: `url("/images/espa.jpg")`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
@@ -214,10 +214,10 @@ const EmbeddedContent = () => {
           </Table.Cell>
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">NodeMCU <br /> ESP8266 </Table.Cell>
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">NodeMCU <br /> ESP8266 </Table.Cell>
             <Table.Cell> These wifi integrated boards simplified IoT and Alexa integrated applications due to their common usage for prototyping. </Table.Cell>
             <Table.Cell>
-              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+              <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
     backgroundImage: `url("/images/espb.jpg")`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
@@ -229,10 +229,10 @@ const EmbeddedContent = () => {
           </Table.Cell>
           </Table.Row>
           <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">Redboard <br /> Artemis </Table.Cell>
+            <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">Redboard <br /> Artemis </Table.Cell>
             <Table.Cell> Each Artemis is equipped with built in BT, which was used for a easy set-up mesh network. Was used for muscle sensing devices, though I plan on using the other board features in future development.</Table.Cell>
             <Table.Cell>
-              <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+              <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
     backgroundImage: `url("/images/sparkfun.jpg")`,
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
@@ -290,13 +290,13 @@ const EmbeddedContent = () => {
 
 <Table>
 <Table.Head>
-<Table.HeadCell>Device Name</Table.HeadCell>
+<Table.HeadCell>Device</Table.HeadCell>
 <Table.HeadCell>Utilization</Table.HeadCell>
 <Table.HeadCell>Image</Table.HeadCell>
 </Table.Head>
 <Table.Body className="">
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     {'Servo Motor'}
   </Table.Cell>
   <Table.Cell>
@@ -308,7 +308,7 @@ const EmbeddedContent = () => {
   <Table.Cell>
 
 
-    <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/servo.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -321,7 +321,7 @@ backgroundPosition: 'center',
   </Table.Cell>
 </Table.Row>
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     Stepper Motor
   </Table.Cell>
   <Table.Cell>
@@ -331,7 +331,7 @@ backgroundPosition: 'center',
 
     </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/stepper_motor.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -343,7 +343,7 @@ backgroundPosition: 'center',
 </Table.Cell>
 </Table.Row>
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     
     Relays
   
@@ -362,7 +362,7 @@ backgroundPosition: 'center',
     
     </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/relay.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -377,7 +377,7 @@ backgroundPosition: 'center',
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
 
 
-  <Table.Cell className="whitespace-nowrap font-medium te text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium te text-gray-900 dark:text-white text-l">
     
     Motor <br /> Controllers
     
@@ -391,7 +391,7 @@ backgroundPosition: 'center',
 
     </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/motor_control.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -454,13 +454,13 @@ backgroundPosition: 'center',
 
 <Table>
 <Table.Head>
-<Table.HeadCell>Device Name</Table.HeadCell>
+<Table.HeadCell>Device</Table.HeadCell>
 <Table.HeadCell>Utilization</Table.HeadCell>
 <Table.HeadCell>Image</Table.HeadCell>
 </Table.Head>
 <Table.Body className="">
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     {'Gas Sensors'}
   </Table.Cell>
   <Table.Cell>
@@ -470,7 +470,7 @@ backgroundPosition: 'center',
     
     </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/dust_sensor.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -483,7 +483,7 @@ backgroundPosition: 'center',
   </Table.Cell>
 </Table.Row>
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     Light Sensors
   </Table.Cell>
   <Table.Cell>
@@ -492,7 +492,7 @@ backgroundPosition: 'center',
      
      </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/rgb_sensor.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -504,14 +504,14 @@ backgroundPosition: 'center',
 </Table.Cell>
 </Table.Row>
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
   Motion Sensors
    </Table.Cell>
   <Table.Cell>
      Both ultrasonic, and PIR motion sensors have been used in dozens of projects for security, automation, and data collection.
     </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/motion_sensor.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
@@ -523,7 +523,7 @@ backgroundPosition: 'center',
 </Table.Cell>
 </Table.Row>
 <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-xl">
+  <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white text-l">
     Chemical Sensors
   
   </Table.Cell>
@@ -532,7 +532,7 @@ backgroundPosition: 'center',
      
      </Table.Cell>
   <Table.Cell>
-    <div className="w-full h-full  flex items-center min-w-[150px] min-h-[150px]"   style={{
+    <div className="w-full h-full  flex items-center min-w-[100px] min-h-[100px]"   style={{
 backgroundImage: `url("/images/ph_sensor.jpg")`,
 backgroundSize: 'contain',
 backgroundRepeat: 'no-repeat',
