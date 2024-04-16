@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link';
 
 const Projects = () => {
   return (
@@ -8,8 +9,9 @@ const Projects = () => {
       className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]"
     >
       <div className="grid grid-cols-1 w-[92%] mx-auto gap-[1rem]  md:grid-cols-5 items-center  ">
-        {/* Webdev Highlight */}
 
+        {/* Webdev Highlight */}
+        <Link href="/Web">
         <div
           className=" bg-gradient-to-b gap-y-4  from-slate-800 to-teal-700 rounded-lg flex flex-col justify-center items-center hover:opacity-90  min-h-[350px] "
           title="Click here for more"
@@ -36,8 +38,13 @@ const Projects = () => {
               </p>
             </div>
           </div>
+          
         </div>
+        </Link>
+
+
         {/* Embedded Highlight */}
+        <Link href="/Embedded">
         <div className="bg-gradient-to-b  gap-y-4  from-slate-800 to-green-700 rounded-lg flex flex-col justify-center items-center  hover:opacity-90  min-h-[350px]">
           <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Embedded<span className="text-white"> Eng</span>
@@ -61,8 +68,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
+      </Link>
         {/* Game Dev Highlight */}
+        <Link href="/Game">
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-cyan-700 rounded-lg flex flex-col justify-center hover:opacity-90  items-center min-h-[350px]">
           <h1 className=" pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             Game <span className="text-white"> Dev </span>
@@ -86,10 +94,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        </Link>
         {/* Data Science/ML Highlight */}
+        <Link href="/Data">
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-green-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
           <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-            ML <span className="text-white">& AI</span> 
+            Data <span className="text-white">& AI</span> 
           </h1>
 
           <div className=" grid grid-rows-2 justify-center  items-center">
@@ -109,7 +119,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        </Link>
         {/* Teaching Highlight */}
+        <Link href="#Projects">
         <div className="bg-gradient-to-b gap-y-4   from-slate-800 to-lime-700 rounded-lg flex flex-col justify-center  hover:opacity-90 items-center min-h-[350px]">
           <h1 className="pt-5 text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
           Leadership<span className="text-white">  </span>
@@ -134,6 +146,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        </Link>
       </div>
     </div>
   );
