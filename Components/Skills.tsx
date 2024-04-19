@@ -246,13 +246,12 @@ const Skills = () => {
     <div id="Skills" className="pt-[5rem] pb-[3rem] bg-black">
       <div className="grid w-[80%] mx-auto grid-cols-1 lg:grid-cols-2 gap-[2rem]">
         <div>
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+          <h1 className="text-[20px] sm-text-center font-bold uppercase text-[#55e6a5] md-[1rem]">
             Skills
           </h1>
-          <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            Functional to <span className="text-[#55e6a5]">Technical</span>
-          </h2>
-
+          <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white flex flex-col sm:inline text-center sm:text-left">
+  Functional <span className="text-[#55e6a5] hidden sm:inline">to Technical</span>
+</h2>
           <div className="grid border-double  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem]">
             {/* Functional Skills Grid */}
 
@@ -463,6 +462,11 @@ const Skills = () => {
 
         {/* Technical Skills Grid */}
         <div className="grid border-double  grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem]">
+        <h2 className="text-[25px] md:text-[35px] lg:text-[45px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white sm:hidden text-center">
+  <span className="text-[#55e6a5]">to Technical</span>
+</h2>
+
+         
           <Popover content={typescript} trigger="hover">
             <div
               className="text-white font-semibold  gap-[2rem] border-double text-center border-2 border-green-400
