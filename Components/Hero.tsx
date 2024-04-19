@@ -21,15 +21,15 @@ const Hero = () => {
 <h1 className="text-[35px] sm:text-[3rem] md:text-[4rem] text-green-50 font-bold block md:inline">
   I&apos;m <span className="text-white">Josh Gagnier</span>
 </h1>
-<br />
+<br />   
           <TextEffect />
           <p className="mt-[1rem] text-[1rem] font-medium    text-white">
             Veteran STEM education leader with a passion for software
             architecture, web, embedded, and game development.
           </p>
           <div className="mt-[1rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <a
-              href="/files/marresume.pdf"
+            <a   
+              href="/files/Joshua_Gagnier April 24.docx.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
