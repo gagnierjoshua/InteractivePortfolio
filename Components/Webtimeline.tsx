@@ -29,27 +29,28 @@ function Webtimeline() {
     <Card className="max-w-sm max-w-lg-[mb-8] max-h-[650px]" >
     <div className="flex items-center justify-center"> 
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Project #1 Title
+      AI Conference Workshop
       </h5>
       </div>
       <div className="h-56 sm:h-64 xl:h-80 2xl:h-85">
       <Carousel>
-        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
-        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+        <img src="images/prompting2.png" alt="..." />
+        <img src="images/prompting1.png" alt="..." />
+
       </Carousel>
       </div>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-       This is the first web app that I am looking to develop and flush out and put in my portfolio.
-       I will add more cards like this below for future projects. 
+       This is a website made for a conference workshop that took place on 4/25/24 to give the ~50 attendeeds hands-on experience and a basic understanding of prompt engineering. This web application was developed utilizing Typescript, React, Node.js, and OpenAI's GPT API. 
+
+      </p>
+      <p className="font-italic">
+      As the conference has passed, the API is disabled. 
       </p>
       <div className="flex items-center justify-center"> 
-      <Button.Group>
-      <Button color="gray">View Live</Button>
-      <Button color="gray">GitHub</Button>
-    </Button.Group>
+      
+      <Button color="gray" onClick={() => window.open('https://prompting.im', '_blank')}>View Live</Button>
+    
+   
     </div>
     </Card>
 
