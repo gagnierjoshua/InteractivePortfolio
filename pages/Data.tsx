@@ -53,7 +53,7 @@ const Data = () => {
         <DataScience />
 
         {/* AI Section */}
-        <Ai />
+        {/*<Ai />*/}
         {/* Footer Section */}
       <Footer />
     </div>
