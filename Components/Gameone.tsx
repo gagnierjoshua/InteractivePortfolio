@@ -13,7 +13,9 @@ const Gameone = () => {
                 className="relative px-5 py-6  bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6">
                
                 <div className="space-y-2 ">
-                <h1 className="text-4xl text-center "> Wipe it up!</h1>
+                <h1 className="text-4xl text-center "> 
+                PAGE IN PROGRESS 
+                <br /> <br /> Wipe it up!</h1>
               
 
                     <p className="text-slate-800 text-center">

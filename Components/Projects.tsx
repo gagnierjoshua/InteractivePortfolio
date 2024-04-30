@@ -89,7 +89,7 @@ const Projects = () => {
             <div className="row-start-2 flex items-center gap-x-2 justify-center relative p-1.5">
               <p className="pt-5 text-20px text-white min-w-[100px] gap-x-2 w-90% justify-center relative items-center max-h-[220px] text-center overflow-auto">
                 In hobby and for educuation, I have developed several games in
-                C++ utilizing low-level libraries and engines such as Raylib.
+                Python, C, and C++ utilizing low-level libraries and engines such as Raylib.
               </p>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Projects = () => {
           <div className=" grid grid-rows-2 justify-center  items-center">
             <div className=" w-[100%] p-5 h-[100%] min-h-[250px] justify-center  items-center relative">
               <Image
-                src="/images/present.jpg"
+                src="/images/present.png"
                 alt="Joshua Gagnier"
                 layout="fill"
                 className="relative z-[11] p-2 w-[95%] h-[95%] object-cover rounded-xl"
